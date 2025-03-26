@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hat trick</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/logo1.jpeg">
+</head>
+<body>
+    <header class="cabeza">
+        <div class="contenido-cabeza">
+            <div class="slogan">
+                    <h1>hat trick</h1>
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav class="menu">
+        <div class="navegador">
+            <a class="unico" href="#">inicio</a>
+            <a href="#">tenis</a>
+            <a href="#">poleras</a>
+            <a href="#">descuentos</a>
+        </div>
+    </nav>
+
+    <main class="principal">
+            <div class="caja1">
+                <section>
+                    <img class="portada" src="./img/tenis1.jpg" alt="">
+                    <div class="texto">
+                        <h3 id="nombre1">G.T Hustle 3 <span id="id1">1</span></h3>
+                        <h4 id="precio1">150$</h4>
+                        <p>Aterriza seguro despues de donkear <br> y siente la seguridad con puro estilo</p>
+                        <button onclick="ponerValores(1)">adquirir</button>
+                    </div>
+                </section>
+                <section>
+                    <img class="portada" src="./img/tenis2.jpg" alt="">
+                    <div class="texto">
+                        <h3 id="nombre2">MESSI F50 <span id="id2">2</span></h3>
+                        <h4 id="precio2">400$</h4>
+                        <p>Ancara al puro estilo F50 y rompe las caderas al estilo Messi</p>
+                        <button onclick="ponerValores(2)">adquirir</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="caja2">
+                <section>
+                    <img class="portada" src="./img/teniscr7.jpg" alt="">
+                    <div class="texto">
+                        <h3 id="nombre3">Mercurial x CR7 <span id="id3">3</span></h3>
+                        <h4 id="precio3">400$</h4>
+                        <p>No es un tenis, es el tenis... <br>5 champions tengo yo😎</p><br>
+                        <button onclick="ponerValores(3)">adquirir</button>
+                    </div>
+                </section>
+                <section>
+                    <img class="portada" src="./img/tenis4.jpeg" alt="">
+                    <div class="texto">
+                        <h3 id="nombre4" >G.T Hustle 3 <span id="id4">4</span></h3>
+                        <h4 id="precio4" >800$</h4>
+                        <p>No se nada de este deporte xd <br>
+                        Encara vinicius para Benzemaaaaaa🗣️ <br>se va a adelantar Cristianooo
+                        golazooooo </p>
+                        <button onclick="ponerValores(4)">adquirir</button>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="caja3">
+                <form action="/validar" method="post" id="formulario">
+                    <h1>Formulario de compra</h1>
+                    Nombre del producto:         <input name="ponerNombre" class="name-producto"  type="text" id="ponerNombre"  readonly><br>
+                    Cantidad:                    <input name="cantidadProducto" class="cantidad-producto" type="number" id="cantidadProducto"  >
+                    Precio:                      <input name="ponerPrecio" class="precio-producto" type="text"   id="ponerPrecio"  readonly>
+                    Total:                       <input name="totalPrecio" class="total-producto" type="text"  id="totalPrecio" readonly>
+                    <button class="calcular" onclick="calcular()">calcular</button>
+                    <h3>Datos para el recibo:</h3>
+                    Nombre:                      <input name="nombreUser" class="name-user" id="nombreUser" type="text" required><br>
+                    Apellido:                    <input name="apelliUser" class="apell-user"id="apelliUser" type="text" required><br>
+                    Carnet:                          <input name="ciUser" class="ci-user" id="ciUser" type="text" required ><br>
+                    N&uacute;mero de tarjeta <br> <input name="numero-tarjeta" class="numero-tarjeta" type="text" placeholder="  0000-0000-0000-0000-000"><br>
+                    Fecha de vencimiento     &nbsp;&nbsp;Codigo de seguridad <br>
+                    <input name="fecha-tarjeta" class="fecha-tarjeta" type="date">    <input name="codigo-tarjeta" class="codigo-tarjeta" type="password" placeholder=" 000">
+                    <br>
+                    <p class="placer">
+                    <input name="placer" type="checkbox" class="placer">
+                    <strong>
+                        Guardar la tarjeta para futuras compras. <br>
+                    </strong>
+                    Esto no afectará la forma en la que pagas por las compras
+                    y lo puedes administrar en cualquier momento desde la p&aacute;gina
+                    </p>
+                    <button type="submit" id="comprar" onclick="limpiar()" class="boton-enviarBD"> COMPRAR </button><br>
+                   <button class="limpiar" onclick="limpiar()">X</button>
+
+                </form>
+
+
+            </div>
+    </main>
+
+    <footer class="pie">
+
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

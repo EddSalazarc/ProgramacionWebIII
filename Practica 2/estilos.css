@@ -1,0 +1,212 @@
+body{
+    margin:0;
+}
+.cabeza{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: #010101;
+
+}
+.slogan{
+    position: absolute;
+    color:white;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:50px;
+    width: 500px;
+    margin-top:-55px;
+    margin-left:50px;
+    cursor:default;
+    /* queeee essssssssssss line-height-step: 20px;*/
+}
+.menu{
+    background-color:#2cb67d ;
+    width: 100%;
+    height: 50px;
+}
+.navegador{
+    position: absolute;
+    margin:14px;
+}
+a{
+    margin-left: 248px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor:progress;
+}
+.limpiar{
+    background-color: red;
+    position: relative;
+    font-weight:  bolder;
+    top:-940px;
+    left:265px;
+    width: 50px;
+
+}
+.limpiar:hover{
+    box-shadow: 0px 0px 3px 3px rgb(247, 146, 146);
+}
+
+.unico{
+    cursor: pointer;
+}
+/*PRINCIPAL*/
+
+.principal{
+    width: 100%;
+    height:1200px;
+    background-color: #16161a;
+    position: absolute;
+}
+
+.caja1{
+    
+    width:790px;
+    height: 455px;
+    margin-left:105px;
+    margin-top:0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.caja2{
+    width: 790px;
+    height: 455px;
+    margin-left:105px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section{
+    margin-top:50px;
+    width: 340px;
+    height: 455px;
+    border-radius: 20px;
+    border-style: solid;
+    border:  2;
+    border-color: rgb(187, 186, 186);
+    background-color: #0c0c0e;
+}
+
+.portada{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.texto{
+    margin:20px;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+button{
+    background-color: #2cb67d;
+    border:none;
+    color:white;
+    text-transform: uppercase;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 90px;
+    cursor:pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 3px 3px #7bffc8;
+}
+
+
+.caja3{
+    width: 410px;
+    height: 950px;
+    position: relative;
+    left:960px;
+    top:-910px;
+    border-radius: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color:white;
+    background-color: #fffffe;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+form{
+    line-height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+input{
+    border: none;
+    outline:none;
+    box-shadow: 0px 1px 0px 0px black;
+    font-size:19px;
+}
+.name-producto{
+    width: 387px;
+
+}
+.precio-producto{
+    width:125px;
+}
+.cantidad-producto{
+    width: 100px;
+}
+.total-producto{
+    width: 138px;
+}
+.calcular{
+    width: 160px;
+    margin-left:30px;
+}
+
+.name-user,.apell-user{
+    width:306px;
+}
+.ci-user{
+    width: 321px;
+}
+.numero-tarjeta,.fecha-tarjeta,.codigo-tarjeta{
+    box-shadow: none;
+    border: 1;
+    border-style: solid;
+    border-color: #010101;
+    border-radius: 10px;
+    height:25px;
+    font-size: 20px;
+
+
+}
+.numero-tarjeta{
+    width: 386px;
+    margin-left: 0px;
+}
+.fecha-tarjeta{
+    width: 180px;
+}
+.codigo-tarjeta{
+    width: 151px;
+    margin-left:43px;
+}
+.boton-enviarBD{
+    width:410px;
+    height: 30px;
+    position: relative;
+    left:-100px;
+    top:3px;
+}
+.placer{
+    box-shadow:none;
+    font-size:12px;
+    line-height: 18px;
+}
