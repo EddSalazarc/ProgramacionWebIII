@@ -1,0 +1,38 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.padre{
+  height: 120px;
+  font-family: fantasy;
+  white-space: nowrap;/*EVITA A QUE EL TEXTO SE PARTA*/
+}
+h1{
+  font-size: 60px !important;
+}
+.crear{
+  width: 200px;
+  margin-left:379px;
+}
+.tabla{
+  width: 1200px;
+  margin-left:170px;
+  margin-top:20px;
+}
+.padre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 170px;
+}
